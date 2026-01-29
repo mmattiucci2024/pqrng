@@ -8,12 +8,20 @@ The code acts both as a quantum circuit builder and as a hybrid (classical+quant
 
 Warning: It's strongly discouraged to install complex Python packages like CirQ system-wide. 
 Create an isolated environment:
+
 Create the directory:
+
 $ mkdir mycirq
+
 Create the virtual environment (venv):
+
 $ python3 -m venv .venv
+
 Activate the venv:
 $ source .venv/bin/activate
+
 Upgrade pip and install CirQ:
+
 $ pip install --upgrade pip
+
 $ pip install cirq
